@@ -1,0 +1,31 @@
+# Codex working and generated delivery directories
+/outputs/
+/work/
+/tmp/
+
+# Local operating-system and editor state
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependency and build output
+node_modules/
+dist/
+coverage/
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local benchmark runs may contain transcripts or subscription metadata.
+/eval/runs/
+/eval/private/
